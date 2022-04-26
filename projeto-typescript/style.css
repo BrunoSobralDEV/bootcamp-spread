@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Orbitron:wght@500&family=Roboto:wght@500&display=swap');
+*{
+  background-color: rgb(243, 230, 214);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  margin: auto;
+  margin-top: 4rem;
+  max-width: 29rem;
+  
+  border-radius: 1rem;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+  padding: 15px;
+}
+
+table {
+  margin-top: 1rem;
+  text-align: center;
+} 
+
+table button {
+  color: red;
+}
