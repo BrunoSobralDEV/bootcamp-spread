@@ -12,6 +12,6 @@ ou
 - Typescript outDir: organização das pastas;
 - Máscara Data e hora;
 - Boas práticas (...);
-- Um pouco de estilo;
+- Um pouco de css;
 
 <img src="https://github.com/BrunoSobralDEV/bootcamp-spread/blob/main/projeto-typescript/Capturar.PNG" alt="project img">
