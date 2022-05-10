@@ -7,7 +7,7 @@ export const Quotes = ({ quote, speaker }) => {
     <Wrapper>
       <Quote>{quote}</Quote>
       <Speaker>{speaker}</Speaker>
-      <Button>Quote No Justsu</Button>
+      <Button onClick={onUpdate}>Quote No Justsu</Button>
     </Wrapper>
   )
 }
