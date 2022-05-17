@@ -11,6 +11,6 @@ app.use(router);
 //   res.json({ nejiHyuuga: 'The difference between stupidity and genius, is that genius has its limits.' })
 // })
 
-app.listen(3333, () => {
+app.listen(3333, 'localhost', () => {
   console.log(`⚡Server running at http://localhost:3333`);
 })
