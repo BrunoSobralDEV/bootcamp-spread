@@ -12,11 +12,9 @@ export function App() {
 
   const onUpdate = async () => {
     const quote = await getQuote();
-    // const quote = {quote: 'Gaara', speaker: "It's not because I'm lazy, it's just because I don't care."};
 
     // att estado
     setQuoteState(quote);
-    console.log(quote)
   }
 
   return (
