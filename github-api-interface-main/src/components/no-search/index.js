@@ -4,7 +4,7 @@ import * as S from "./styled";
 const NoSearch = () => {
   return (
     <S.Wrapper>
-      <h1>Nenhum usuario pesquisado</h1>
+      <h1 id="noSearch">Nenhum usuario pesquisado</h1>
     </S.Wrapper>
   );
 };

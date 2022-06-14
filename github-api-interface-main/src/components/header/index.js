@@ -7,7 +7,10 @@ const Header = () => {
   const [usernameForSearch, setUsernameForSearch] = useState();
 
   const submitGetUser = () => {
-    if (!usernameForSearch) return;
+    if (!usernameForSearch) {
+      document.querySelector('#noSearch').innerText = 'Usuário não encontrado'
+      return
+    };
     return getUser(usernameForSearch);
   };
 

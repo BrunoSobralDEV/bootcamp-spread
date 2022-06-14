@@ -37,6 +37,7 @@ const Profile = () => {
             </a>
           </S.WrapperUserGeneric>
         </div>
+        
         <StatusCount />
       </S.WrapperInfoUser>
     </S.Wrapper>

@@ -10,14 +10,14 @@ We will create an application using the github public api.
 
 ### Features
 - Profile: caso não tenha alguma informação, o "título" fique oculto [ok]
-- Pesquisar com o botão enter no input
-- dark theme
-- Organizar repositórios em uma tabela
-- ícones
+- Resposta 'Usuário não encontrado' [ok]
 - MaterialUI
+- ícones
 - Ícone no Loading
-- Resposta repo não encontrado
+- Organizar repositórios em uma tabela
+- dark theme
 - F5 manter última pesquisa
+- Pesquisar com o botão enter no input
 
 ### Features
 
