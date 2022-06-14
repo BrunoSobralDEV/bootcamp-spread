@@ -2,6 +2,7 @@ import React from "react";
 import useGithub from "../../hooks/github-hooks";
 import StatusCount from "../statusCount";
 import * as S from "./styled";
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 const Profile = () => {
   const { githubState } = useGithub();
@@ -11,7 +12,7 @@ const Profile = () => {
       <S.WrapperImage src={githubState.user.avatar} alt="Avatar of user" />
       <S.WrapperInfoUser>
         <div>
-          <h1>{githubState.user.name}</h1>
+          <h1><GitHubIcon/> {githubState.user.name}</h1>
           <S.WrapperUserGeneric>
             <h3>Username:</h3>
             <a
