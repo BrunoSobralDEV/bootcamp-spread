@@ -9,6 +9,17 @@ This repository was created in order to show how we can create a frontend applic
 We will create an application using the github public api.
 
 ### Features
+- Profile: caso não tenha alguma informação, o "título" fique oculto [ok]
+- Pesquisar com o botão enter no input
+- dark theme
+- Organizar repositórios em uma tabela
+- ícones
+- MaterialUI
+- Ícone no Loading
+- Resposta repo não encontrado
+- F5 manter última pesquisa
+
+### Features
 
 - Search infos by username
 - Search repo by username

@@ -23,15 +23,15 @@ const Profile = () => {
             </a>
           </S.WrapperUserGeneric>
           <S.WrapperUserGeneric>
-            <h3>Company:</h3>
+            <h3>{githubState.user.company? 'Company:' : ''}</h3>
             <span>{githubState.user.company}</span>
           </S.WrapperUserGeneric>
           <S.WrapperUserGeneric>
-            <h3>Location:</h3>
+            <h3>{githubState.user.location ? 'Location:' : ''}</h3>
             <span>{githubState.user.location}</span>
           </S.WrapperUserGeneric>
           <S.WrapperUserGeneric>
-            <h3>Blog:</h3>
+            <h3>{githubState.user.blog ? 'Blog:' : ''}</h3>
             <a href={githubState.user.blog} target="_blank" rel="noreferrer">
               {githubState.user.blog}
             </a>
