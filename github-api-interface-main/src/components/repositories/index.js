@@ -28,8 +28,8 @@ const Repositories = () => {
   }, [githubState.user.login]);
   
 const columns = [
-  { field: 'name', headerName: 'First name' },
-  { field: 'full_name', headerName: 'Last name' },
+  { field: 'name', headerName: 'First name', width: '200px'},
+  { field: 'full_name', headerName: 'Last name', width: '200px' },
 ];
 
   return (
