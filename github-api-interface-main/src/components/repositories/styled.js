@@ -51,4 +51,10 @@ export const WrapperList = styled.div`
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
+
+  
+  a {
+    color: blue;
+    font-weight: 700;
+  }
 `;
