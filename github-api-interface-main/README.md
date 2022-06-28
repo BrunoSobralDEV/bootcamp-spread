@@ -1,12 +1,9 @@
 # Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## About project
 
-This repository was created in order to show how we can create a frontend application with reusable components.
+Project created with ReactJS, where we can search the GitHub API for the username and thus get their data and repositories!
 
-We will create an application using the github public api.
+An application using the github public api.
 
 ### Features
 
@@ -23,11 +20,6 @@ We will create an application using the github public api.
 - Listar repositórios em uma tabela [✔]
 
 
-### Preview
-
-Print of the finished project.
-
-![plot](./image/snapshot-2.png)
 
 ### Libraries used
 
@@ -35,3 +27,9 @@ Print of the finished project.
 - [React-tabs](https://www.npmjs.com/package/react-tabs)
 - [Styled-components](https://styled-components.com/)
 - [MaterialUI](https://mui.com/)
+
+### Preview
+
+Print of the finished project.
+
+<img src="https://github.com/BrunoSobralDEV/bootcamp-spread/blob/main/github-api-interface-main/image/snapshot-2.PNG" >
