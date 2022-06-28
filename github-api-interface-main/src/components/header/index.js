@@ -4,6 +4,7 @@ import useGithub from "../../hooks/github-hooks";
 import SearchIcon from '@mui/icons-material/Search';
 import { TextField, Button } from "@mui/material";
 
+
 const Header = () => {
   const { getUser } = useGithub();
   const [usernameForSearch, setUsernameForSearch] = useState();
@@ -41,8 +42,6 @@ const Header = () => {
           <SearchIcon /> Buscar
         </Button>
       </S.Wrapper>
-      
-
     </header>
   );
 };

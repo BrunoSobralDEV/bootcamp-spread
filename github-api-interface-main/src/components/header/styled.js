@@ -5,6 +5,7 @@ export const Wrapper = styled.div`
   width: 100%;
   justify-content: space-between;
   padding: 4px;
+  padding-top: 16px;
 
   input {
     /* border: 1px solid #ccc;
