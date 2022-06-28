@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# GitSearch - Search user on github
 ## About project
 
 Project created with ReactJS, where we can search the GitHub API for the username and thus get their data and repositories!
