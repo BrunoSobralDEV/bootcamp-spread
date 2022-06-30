@@ -1,4 +1,4 @@
-import { config } from "../config/Constants";
+import { config } from "../config/Config";
 import { URLModel } from "../database/model/URL";
 import { Request, Response } from "express";
 import shortId from 'shortid';

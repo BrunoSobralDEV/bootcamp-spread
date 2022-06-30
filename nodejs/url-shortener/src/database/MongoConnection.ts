@@ -1,4 +1,4 @@
-import { config } from '../config/Constants';
+import { config } from '../config/Config';
 import mongoose from 'mongoose';
 
 export class MongoConnection {
