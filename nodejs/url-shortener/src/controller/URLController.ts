@@ -13,10 +13,9 @@ export class URLController {
       res.json(url)
       return
     }
-
     // 2- next, Create hash to generate URL
     const hash = shortId.generate();
-      // mount destination url
+    // mount destination url
     const shortURL = `${config.API_URL}/${hash}`
 
     // 3- Save URL in the database
@@ -24,6 +23,7 @@ export class URLController {
     
     // 4- Return URL that was saved
     res.json(newURL);
+    
   }
 
   public async redirect (req: Request, res: Response): Promise<void> {

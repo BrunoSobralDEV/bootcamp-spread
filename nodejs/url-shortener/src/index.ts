@@ -16,4 +16,4 @@ api.post('/shorten', urlController.shorten);
 // Redirect URL
 api.get('/:hash', urlController.redirect);
 
-api.listen(5000, () => console.log('http://localhost:5000'));
+api.listen(5000, () => console.log(`http://localhost:5000`));
